@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+<button id="meme1" 
+
+onclick="
+document.getElementById('imagen1').style.display='block';
+document.getElementById('imagen2').style.display='none';
+document.getElementById('texto').style.display='block'
+document.getElementById('texto').innerHTML ='Programando';
+document.getElementById('meme1').style.display='none' 
+document.getElementById('meme2').style.display='block'"
+>1
+</button>
+
+<button style="display: none;" id="meme2"
+ onclick="
+document.getElementById('imagen2').style.display='block';
+document.getElementById('imagen1').style.display='none';
+document.getElementById('texto').style.display='block'
+document.getElementById('texto').innerHTML ='CON JAVASCRIPT';
+document.getElementById('meme2').style.display='none' 
+document.getElementById('meme1').style.display='block'"
+>2</button>
+
+<p><img style="display: none;" id="imagen1" src="img/joey1.jpg" style="width:100px"></p>
+<p><img style="display: none;" id="imagen2" src="img/joey2.jpg" style="width:100px"></p>
+
+<h1 style="display: none;" id="texto">Programando</h1>
+</body>
+</html>
